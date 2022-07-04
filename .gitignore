@@ -1,33 +1,57 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.cmd
+*.jar
+*maven*
+*mvnw*
+*.gitignore*
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
+# Eclipse project files
 .project
+.classpath
 .settings
-.springBeans
-.sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ IDEA project files and directories
 *.iml
 *.ipr
+*.iws
+.idea/
+.shelf/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Geany project file
+.geany
 
-### VS Code ###
+# KDevelop project file and directory
+.kdev4/
+*.kdev4
+
+# Build targets
+/target
+*/target
+
+# Report directories
+/reports
+*/reports
+
+# Mac-specific directory that no other operating system needs.
+.DS_Store
+
+# JVM crash logs
+hs_err_pid*.log
+
+dependency-reduced-pom.xml
+
+*/.unison.*
+
+# exclude mainframer files
+mainframer
+.mainframer
+
+# exclude docker-sync stuff
+.docker-sync
+*/.docker-sync
+
+# exclude vscode files
 .vscode/
+*.factorypath
+
+# exclude file created by the flatten plugin
+.flattened-pom.xml
