@@ -1,8 +1,11 @@
+*gitignore*
+*.mvn/
 *.cmd
 *.jar
 *maven*
 *mvnw*
-*.gitignore*
+!.mvn/wrapper/maven-wrapper.jar
+*maven-wrapper.jar
 
 # Eclipse project files
 .project
