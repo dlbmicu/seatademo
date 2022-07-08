@@ -1,0 +1,1 @@
+docker run --name seata-server -p 8091:8091 seataio/seata-server:latest
